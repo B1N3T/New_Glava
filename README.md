@@ -1,5 +1,5 @@
 # New_Glava
-An update to Glava. This version is currently working (at least it is on my computer). Implemented fixes to code and created a python script to install necessary dependencies. Code will be using my preferred settings by default...
+An update to Glava the audio visualizer application. This version is currently working (at least it is on my computer). Implemented fixes to code and created a python script to install necessary dependencies. Code will be using my preferred settings by default...
 
 # Installation
 Installing Glava is pretty simple. Just run the glava_setup.py script in the terminal.
@@ -18,7 +18,12 @@ For more information please visit:
 
 https://github.com/jarcode-foss/glava
 
-Their version isn't working properly on debian devices so please feel free to download these fixes that have been implemented by me and other programmers. Don't be afraid to optimize code either, this repo was primarily made to address issues with installing this piece-of-software.
+Their version isn't working properly on Debian devices so please feel free to download these fixes that have been implemented by me and other programmers. Don't be afraid to optimize code either, this repo was primarily made to address issues with installing this piece-of-software.
+
+My setup:
+
+![My_Setup](https://github.com/B1N3T/New_Glava/assets/89960004/42376d44-1938-4dde-98f7-d9e8789219e6)
+
 
 # Sources
 
