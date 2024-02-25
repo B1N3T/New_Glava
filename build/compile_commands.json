@@ -1,0 +1,86 @@
+[
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "c++ -Ilibglfft.a.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -MD -MQ libglfft.a.p/glfft_glfft.cpp.o -MF libglfft.a.p/glfft_glfft.cpp.o.d -o libglfft.a.p/glfft_glfft.cpp.o -c ../glfft/glfft.cpp",
+    "file": "../glfft/glfft.cpp",
+    "output": "libglfft.a.p/glfft_glfft.cpp.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "c++ -Ilibglfft.a.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -MD -MQ libglfft.a.p/glfft_glfft_gl_interface.cpp.o -MF libglfft.a.p/glfft_glfft_gl_interface.cpp.o.d -o libglfft.a.p/glfft_glfft_gl_interface.cpp.o -c ../glfft/glfft_gl_interface.cpp",
+    "file": "../glfft/glfft_gl_interface.cpp",
+    "output": "libglfft.a.p/glfft_glfft_gl_interface.cpp.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "c++ -Ilibglfft.a.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -MD -MQ libglfft.a.p/glfft_glfft_wisdom.cpp.o -MF libglfft.a.p/glfft_glfft_wisdom.cpp.o.d -o libglfft.a.p/glfft_glfft_wisdom.cpp.o -c ../glfft/glfft_wisdom.cpp",
+    "file": "../glfft/glfft_wisdom.cpp",
+    "output": "libglfft.a.p/glfft_glfft_wisdom.cpp.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Ilibglava.so.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -pthread -MD -MQ libglava.so.p/glava_fifo.c.o -MF libglava.so.p/glava_fifo.c.o.d -o libglava.so.p/glava_fifo.c.o -c ../glava/fifo.c",
+    "file": "../glava/fifo.c",
+    "output": "libglava.so.p/glava_fifo.c.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Ilibglava.so.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -pthread -MD -MQ libglava.so.p/glava_glad.c.o -MF libglava.so.p/glava_glad.c.o.d -o libglava.so.p/glava_glad.c.o -c ../glava/glad.c",
+    "file": "../glava/glad.c",
+    "output": "libglava.so.p/glava_glad.c.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Ilibglava.so.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -pthread -MD -MQ libglava.so.p/glava_glava.c.o -MF libglava.so.p/glava_glava.c.o.d -o libglava.so.p/glava_glava.c.o -c ../glava/glava.c",
+    "file": "../glava/glava.c",
+    "output": "libglava.so.p/glava_glava.c.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Ilibglava.so.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -pthread -MD -MQ libglava.so.p/glava_glfw_wcb.c.o -MF libglava.so.p/glava_glfw_wcb.c.o.d -o libglava.so.p/glava_glfw_wcb.c.o -c ../glava/glfw_wcb.c",
+    "file": "../glava/glfw_wcb.c",
+    "output": "libglava.so.p/glava_glfw_wcb.c.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Ilibglava.so.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -pthread -MD -MQ libglava.so.p/glava_glsl_ext.c.o -MF libglava.so.p/glava_glsl_ext.c.o.d -o libglava.so.p/glava_glsl_ext.c.o -c ../glava/glsl_ext.c",
+    "file": "../glava/glsl_ext.c",
+    "output": "libglava.so.p/glava_glsl_ext.c.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Ilibglava.so.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -pthread -MD -MQ libglava.so.p/glava_glx_wcb.c.o -MF libglava.so.p/glava_glx_wcb.c.o.d -o libglava.so.p/glava_glx_wcb.c.o -c ../glava/glx_wcb.c",
+    "file": "../glava/glx_wcb.c",
+    "output": "libglava.so.p/glava_glx_wcb.c.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Ilibglava.so.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -pthread -MD -MQ libglava.so.p/glava_pulse_input.c.o -MF libglava.so.p/glava_pulse_input.c.o.d -o libglava.so.p/glava_pulse_input.c.o -c ../glava/pulse_input.c",
+    "file": "../glava/pulse_input.c",
+    "output": "libglava.so.p/glava_pulse_input.c.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Ilibglava.so.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -pthread -MD -MQ libglava.so.p/glava_render.c.o -MF libglava.so.p/glava_render.c.o.d -o libglava.so.p/glava_render.c.o -c ../glava/render.c",
+    "file": "../glava/render.c",
+    "output": "libglava.so.p/glava_render.c.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Ilibglava.so.p -I. -I.. -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -pthread -MD -MQ libglava.so.p/glava_xwin.c.o -MF libglava.so.p/glava_xwin.c.o.d -o libglava.so.p/glava_xwin.c.o -c ../glava/xwin.c",
+    "file": "../glava/xwin.c",
+    "output": "libglava.so.p/glava_xwin.c.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Iglava.p -I. -I.. -I/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/glava -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -std=c++11 -MD -MQ glava.p/glava-cli_cli.c.o -MF glava.p/glava-cli_cli.c.o.d -o glava.p/glava-cli_cli.c.o -c ../glava-cli/cli.c",
+    "file": "../glava-cli/cli.c",
+    "output": "glava.p/glava-cli_cli.c.o"
+  },
+  {
+    "directory": "/media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build",
+    "command": "cc -Ilibglava-obs.so.p -I. -I.. -I/usr/include/obs -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O2 -DGLAVA_UNIX -DGLAVA_GLX '-DGLAVA_VERSION=\"v1.6.3-90-g6fc0e32\"' '-DSHADER_INSTALL_PATH=\"/etc/xdg/glava\"' '-DGLAVA_RESOURCE_PATH=\"/usr/share/glava/resources\"' -fPIC -pthread -MD -MQ libglava-obs.so.p/glava-obs_entry.c.o -MF libglava-obs.so.p/glava-obs_entry.c.o.d -o libglava-obs.so.p/glava-obs_entry.c.o -c ../glava-obs/entry.c",
+    "file": "../glava-obs/entry.c",
+    "output": "libglava-obs.so.p/glava-obs_entry.c.o"
+  }
+]
