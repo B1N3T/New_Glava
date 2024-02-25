@@ -1,0 +1,345 @@
+Build started at 2024-02-24T21:44:08.804045
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/usr
+Python system: Linux
+The Meson build system
+Version: 1.0.1
+Source dir: /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava
+Build dir: /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build
+Build type: native build
+WARNING: You should add the boolean check kwarg to the run_command call.
+         It currently defaults to false,
+         but it will default to true in future releases of meson.
+         See also: https://github.com/mesonbuild/meson/issues/9300
+Running command: /usr/bin/git describe --tags
+--- stdout ---
+v1.6.3-90-g6fc0e32
+
+--- stderr ---
+
+
+Project name: glava
+Project version: v1.6.3-90-g6fc0e32
+-----
+Detecting compiler via: cc --version
+compiler returned <Popen: returncode: 0 args: ['cc', '--version']>
+compiler stdout:
+cc (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: cc -E -dM -
+-----
+Detecting linker via: cc -Wl,--version
+linker returned <Popen: returncode: 0 args: ['cc', '-Wl,--version']>
+linker stdout:
+GNU ld (GNU Binutils for Debian) 2.40
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 12.2.0
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQj3uHC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 12.2.0 "cc (Debian 12.2.0-14) 12.2.0")
+C linker for the host machine: cc ld.bfd 2.40
+-----
+Detecting compiler via: c++ --version
+compiler returned <Popen: returncode: 0 args: ['c++', '--version']>
+compiler stdout:
+c++ (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: c++ -E -dM -
+-----
+Detecting linker via: c++ -Wl,--version
+linker returned <Popen: returncode: 0 args: ['c++', '-Wl,--version']>
+linker stdout:
+GNU ld (GNU Binutils for Debian) 2.40
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 12.2.0
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2DV1hQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. --version -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ sanitycheckcpp.cc -o sanitycheckcpp.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 12.2.0 "c++ (Debian 12.2.0-14) 12.2.0")
+C++ linker for the host machine: c++ ld.bfd 2.40
+-----
+Detecting compiler via: cc --version
+compiler returned <Popen: returncode: 0 args: ['cc', '--version']>
+compiler stdout:
+cc (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: cc -E -dM -
+-----
+Detecting linker via: cc -Wl,--version
+linker returned <Popen: returncode: 0 args: ['cc', '-Wl,--version']>
+linker stdout:
+GNU ld (GNU Binutils for Debian) 2.40
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 12.2.0
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cckbziqf.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 12.2.0 "cc (Debian 12.2.0-14) 12.2.0")
+C linker for the build machine: cc ld.bfd 2.40
+-----
+Detecting compiler via: c++ --version
+compiler returned <Popen: returncode: 0 args: ['c++', '--version']>
+compiler stdout:
+c++ (Debian 12.2.0-14) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: c++ -E -dM -
+-----
+Detecting linker via: c++ -Wl,--version
+linker returned <Popen: returncode: 0 args: ['c++', '-Wl,--version']>
+linker stdout:
+GNU ld (GNU Binutils for Debian) 2.40
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 12.2.0
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr2wqi8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. --version -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ sanitycheckcpp.cc -o sanitycheckcpp.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 12.2.0 "c++ (Debian 12.2.0-14) 12.2.0")
+C++ linker for the build machine: c++ ld.bfd 2.40
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Run-time dependency threads found: YES
+Running compile:
+Working directory:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpbknr7haf
+Command line:  cc /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpbknr7haf/testfile.c -o /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpbknr7haf/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lpulse -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library pulse found: YES
+Running compile:
+Working directory:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpmg42nd30
+Command line:  cc /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpmg42nd30/testfile.c -o /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpmg42nd30/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lpulse-simple -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library pulse-simple found: YES
+Running compile:
+Working directory:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmplqqo0r2b
+Command line:  cc /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmplqqo0r2b/testfile.c -o /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmplqqo0r2b/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library dl found: YES
+Running compile:
+Working directory:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmp4d_jn0uq
+Command line:  cc /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmp4d_jn0uq/testfile.c -o /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmp4d_jn0uq/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Running compile:
+Working directory:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpbfvqe6mj
+Command line:  cc /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpbfvqe6mj/testfile.c -o /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpbfvqe6mj/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lX11 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library X11 found: YES
+Running compile:
+Working directory:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpxd5tgk07
+Command line:  cc /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpxd5tgk07/testfile.c -o /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpxd5tgk07/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lXext -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library Xext found: YES
+Running compile:
+Working directory:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpc_86loy8
+Command line:  cc /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpc_86loy8/testfile.c -o /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpc_86loy8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lXrender -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library Xrender found: YES
+Running command: /usr/bin/find glfft -type f -name '*.cpp' -print
+--- stdout ---
+glfft/glfft.cpp
+glfft/glfft_gl_interface.cpp
+glfft/glfft_wisdom.cpp
+
+--- stderr ---
+
+
+Library dl found: YES
+Running command: /usr/bin/find glava -type f -name '*.c' -print
+--- stdout ---
+glava/fifo.c
+glava/glad.c
+glava/glava.c
+glava/glfw_wcb.c
+glava/glsl_ext.c
+glava/glx_wcb.c
+glava/pulse_input.c
+glava/render.c
+glava/xwin.c
+
+--- stderr ---
+
+
+Dependency threads found: YES unknown (cached)
+Running compile:
+Working directory:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpkiwzoq7d
+Command line:  cc /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpkiwzoq7d/testfile.c -o /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpkiwzoq7d/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lGL -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library GL found: YES
+Library X11 found: YES
+Running compile:
+Working directory:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpbrewy9k0
+Command line:  cc /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpbrewy9k0/testfile.c -o /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpbrewy9k0/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lobs -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library obs found: YES
+Library dl found: YES
+Build targets in project: 4
+
+glava v1.6.3-90-g6fc0e32
+
+  User defined options
+    prefix: /usr
+
+Found ninja-1.11.1 at /usr/bin/ninja
+Running compile:
+Working directory:  /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpu0y664ug
+Command line:  cc /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpu0y664ug/testfile.c -o /media/user/2bb69c45-33e8-4b8b-a5f4-dd330073b172/@home/int3rlud3/Desktop/initial_boot/glava/build/meson-private/tmpu0y664ug/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/12/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/12/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/12/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Failed to guess install tag for /etc/xdg/dummy
+Failed to guess install tag for /usr/share/glava/dummy
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
